@@ -1,20 +1,20 @@
 # Simple Calculator Program in Python
 
 def add(x, y):
-    return x + y
+    return x + y #adds the given value
 
 def subtract(x, y):
-    return x - y
+    return x - y #subtracts the given value
 
 def multiply(x, y):
-    return x * y
+    return x * y #multilpilies the given value
 
 def divide(x, y):
-    if y == 0:
+    if y == 0: #divides the given value
         return "Error: Cannot divide by zero"
     return x / y
 
-print("Select operation:")
+print("Select operation:") #opeartion selection
 print("1. Add")
 print("2. Subtract")
 print("3. Multiply")
